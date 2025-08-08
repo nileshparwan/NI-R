@@ -37,7 +37,7 @@ const AboutUsSection = () => {
             className="bg-white py-12 px-4 md:px-8 lg:px-16"
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
+            // viewport={{ once: true, amount: 0.5 }}
             variants={containerVariants}
         >
             <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-8">
