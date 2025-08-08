@@ -10,7 +10,7 @@ export default function HeroBanner() {
     const { t } = useTranslation();
 
     return (
-        <section className="relative w-full h-[90vh] overflow-hidden">
+        <section className="relative w-full h-[90vh] overflow-hidden bg-gradient-to-br from-[#2d261e] to-[#0c0a07]">
             {/* Background Image */}
             <div className="absolute inset-0">
                 <img
