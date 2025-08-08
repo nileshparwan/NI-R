@@ -1,0 +1,35 @@
+{
+  "header": {
+    "automotive": "Automotive LTD",
+    "get_a_quote": "Demander un devis"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "gallery": "Galerie",
+    "testimonials": "Témoignages",
+    "contact": "Contact",
+    "clients": "Clients"
+  },
+  "hero_banner": {
+    "battery_check_replace": "Peinture et restauration automobile",
+    "your_car_health_is_our_mission": "La finition parfaite est notre mission",
+    "repair_times_vary": "Des retouches mineures aux rénovations complètes, nous offrons des finitions éclatantes et durables — pour que votre voiture ait l’air neuve et attire tous les regards.",
+    "read_more": "En savoir plus"
+  },
+  "about_us": {
+    "label": "À propos",
+    "title": "Le soin automobile en lequel vous pouvez avoir confiance",
+    "subtitle": "Depuis 2022, NI-R Automotive propose des services complets pour réparer et restaurer votre véhicule avec précision et passion.",
+    "image_alt": "Peinture automobile",
+    "services": {
+      "collision": "Réparation de collisions",
+      "paint": "Peinture et restauration",
+      "mechanical": "Intervention mécanique",
+      "maintenance": "Entretien et maintenance"
+    },
+    "read_more": "En savoir plus",
+    "founder": "Fondateur & PDG"
+  }
+}

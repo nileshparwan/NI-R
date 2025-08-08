@@ -1,0 +1,35 @@
+{
+  "header": {
+    "automotive": "Automotive LTD",
+    "get_a_quote": "Get a Quote"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "gallery": "Gallery",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "clients": "Clients"
+  },
+  "hero_banner": {
+    "battery_check_replace": "Car Paint & Restoration",
+    "your_car_health_is_our_mission": "Perfect Finish is Our Mission",
+    "repair_times_vary": "From minor touch-ups to full-body makeovers, we deliver vibrant, long-lasting finishes — so your car looks brand new and turns heads everywhere you go.",
+    "read_more": "Read More"
+  },
+  "about_us": {
+    "label": "About",
+    "title": "Car care you can trust",
+    "subtitle": "Since 2022, NI-R Automotive has been offering complete services to repair and restore your vehicle with precision and passion.",
+    "image_alt": "Car painting",
+    "services": {
+      "collision": "Collision repair",
+      "paint": "Painting and restoration",
+      "mechanical": "Mechanical work",
+      "maintenance": "Maintenance and servicing"
+    },
+    "read_more": "Read more",
+    "founder": "Founder & CEO"
+  }
+}
