@@ -15,7 +15,7 @@ export default function AppLayout(){
 
       <footer className='bg-secondary text-white p-8'>
         <div className='max-w-7xl mx-auto'>
-          <p>© {new Date().getFullYear()} Cripar — All rights reserved</p>
+          <p>© {new Date().getFullYear()} NI-R — All rights reserved</p>
         </div>
       </footer>
     </div>
