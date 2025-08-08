@@ -1,9 +1,9 @@
 // src/components/HeroBanner.jsx
-import { Button } from "@/components/ui/button";
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import HeroImage from '../assets/hero-bg.jpg'
 import Painter from '../assets/painter-at-work.webp'
+import { Button } from '@/components/ui/Button';
 
 
 export default function HeroBanner() {

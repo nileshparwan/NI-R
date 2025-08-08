@@ -1,6 +1,6 @@
 import { Globe, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 const TopHeaderBar = () => {
     const { t, i18n } = useTranslation();

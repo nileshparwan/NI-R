@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Button } from '@/components/ui/Button';
 import coFounder from '../assets/co-founder.jpeg';
 import bodyPaintSpraying from '../assets/body-paint-spraying.jpg';
 import { useTranslation } from 'react-i18next';
