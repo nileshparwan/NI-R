@@ -16,8 +16,8 @@ const AboutUsSection = () => {
             opacity: 1,
             y: 0,
             transition: {
-                delayChildren: 0.3,
-                staggerChildren: 0.2
+                delayChildren: 0.1, // Reduced initial delay
+                staggerChildren: 0.1 // Reduced delay between each child
             }
         }
     };
@@ -25,7 +25,11 @@ const AboutUsSection = () => {
     // Animation variants for child elements (images, text, cards)
     const itemVariants = {
         hidden: { opacity: 0, y: 20 },
-        visible: { opacity: 1, y: 0 }
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5 } // Added duration
+        }
     };
 
     return (
