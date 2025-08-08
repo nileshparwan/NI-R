@@ -41,7 +41,7 @@ const AboutUsSection = () => {
                 <motion.div variants={itemVariants} className="hidden md:flex flex-1 flex-col justify-center gap-4 relative">
                     <div className="grid grid-cols-1 gap-4">
                         <motion.div variants={itemVariants} className="col-span-2 md:col-span-1">
-                            <img src={bodyPaintSpraying} alt="Body Paint spraying" className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                            <img src={bodyPaintSpraying} alt="Body Paint spraying" className="w-full h-auto object-contain rounded-lg shadow-lg" loading='lazy'/>
                         </motion.div>
                     </div>
                 </motion.div>
@@ -60,7 +60,7 @@ const AboutUsSection = () => {
                     <motion.div variants={itemVariants} className="flex-1 flex flex-col gap-4 relative mt-4 md:hidden">
                         <div className="grid grid-cols-1 gap-4">
                             <motion.div variants={itemVariants}>
-                                <img src={bodyPaintSpraying} alt="Body Paint spraying" className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                                <img src={bodyPaintSpraying} alt="Body Paint spraying" className="w-full h-auto object-contain rounded-lg shadow-lg" loading='lazy'/>
                             </motion.div>
                         </div>
                     </motion.div>
