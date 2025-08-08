@@ -1,8 +1,8 @@
 // src/components/HeroBanner.jsx
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
-import HeroImage from '../assets/hero-bg.jpg'
-import Painter from '../assets/painter-at-work.webp'
+import HeroImage from '../assets/hero-bg.jpg';
+import Painter from '../assets/painter-at-work.webp';
 import { Button } from '@/components/ui/Button';
 
 
@@ -10,7 +10,7 @@ export default function HeroBanner() {
     const { t } = useTranslation();
 
     return (
-        <section className="relative w-full h-[90vh] overflow-hidden bg-gradient-to-br from-[#2d261e] to-[#0c0a07]">
+        <section className="relative w-full h-[80vh] md:h-[90vh] overflow-hidden bg-gradient-to-br from-[#2d261e] to-[#0c0a07]">
             {/* Background Image */}
             <div className="absolute inset-0">
                 <img
@@ -39,7 +39,7 @@ export default function HeroBanner() {
                         {t("hero_banner.repair_times_vary")}
                     </p>
 
-                    <div className="flex items-center gap-4">
+                    <div className="flex justify-center md:justify-start items-center gap-4">
                         <Button
                             size="lg"
                             className="bg-red-600 hover:bg-red-700 text-white rounded-full px-6"
@@ -51,15 +51,16 @@ export default function HeroBanner() {
 
                 {/* Image Section */}
                 <motion.div
-                    className="mt-10 lg:mt-0 absolute bottom-0 mx-auto md:right-0 z-0"
+                    className="lg:mt-0 z-0 
+               relative lg:absolute lg:bottom-0 lg:right-0"
                     initial={{ opacity: 0, x: 50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
                 >
                     <img
                         src={Painter}
-                        alt="Mechanic holding tire"
-                        className="w-[350px] lg:w-[450px] object-contain"
+                        alt="Painter at work"
+                        className="w-[250px] sm:w-[300px] lg:w-[450px] object-contain mx-auto lg:mx-0"
                     />
                 </motion.div>
             </div>
