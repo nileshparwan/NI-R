@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import AppLayout from '../layouts/AppLayout'
+import BouncingCar from '@/components/BouncingCar';
 
 // Lazy load large pages
 const Home = lazy(() => import('../pages/Home'))
@@ -16,7 +17,7 @@ export default function AppRoutes(){
   return (
     <Routes>
       <Route path='/' element={<AppLayout />}>
-        <Route index element={<Suspense fallback={<div>Loading Home...</div>}><Home/></Suspense>} />
+        <Route index element={<Suspense fallback={<BouncingCar />}><Home/></Suspense>} />
         {/* <Route path='services' element={<Suspense fallback={<div>Loading Services...</div>}><Services/></Suspense>} />
         <Route path='about' element={<Suspense fallback={<div>Loading About...</div>}><About/></Suspense>} />
         <Route path='gallery' element={<Suspense fallback={<div>Loading Gallery...</div>}><Gallery/></Suspense>} />
