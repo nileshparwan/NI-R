@@ -24,12 +24,12 @@ export default function HeroBanner() {
             {/* Content */}
             <div className="relative container mx-auto flex flex-col lg:flex-row items-center justify-between h-full px-6 lg:px-12">
                 <motion.div
-                    className="text-white max-w-2xl"
+                    className="text-white max-w-2xl z-10"
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <p className="uppercase text-red-500 tracking-widest text-sm font-semibold mb-3">
+                    <p className="uppercase text-red-500 tracking-widest text-sm font-semibold mt-4 mb-3">
                         {t("hero_banner.battery_check_replace")}
                     </p>
                     <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
@@ -51,7 +51,7 @@ export default function HeroBanner() {
 
                 {/* Image Section */}
                 <motion.div
-                    className="mt-10 lg:mt-0 absolute bottom-0 right-0"
+                    className="mt-10 lg:mt-0 absolute bottom-0 mx-auto md:right-0 z-0"
                     initial={{ opacity: 0, x: 50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
