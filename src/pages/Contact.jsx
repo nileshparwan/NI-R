@@ -1,6 +1,6 @@
+import { Button } from '@/components/ui/Button';
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import Button from '../components/ui/Button'
 
 export default function Contact(){
   const { t } = useTranslation()
