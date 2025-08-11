@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import sicomLogo from '@/assets/sicom.jpg';
 import transinvestLogo from '@/assets/transinvest.jpeg';
 import skblLogo from '@/assets/skbl.jpeg';
-import ClientCarousel from './ClientCarousel';
+import ClientCarousel from './general/ClientCarousel';
 
 const logos = [
   { src: sicomLogo, alt: 'SICOM General Insurance' },

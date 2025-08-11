@@ -8,7 +8,7 @@ import ClientSection from '@/components/ClientSection';
 import TestimonialSection from '@/components/TestimonialSection';
 import ContactUsSection from '@/components/ContactUsSection';
 import Gallery from '@/components/GallerySection';
-import BackToTopButton from '@/components/BackToTopButton';
+import BackToTopButton from '@/components/general/BackToTopButton';
 
 export default function Home() {
   return (

@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import AppLayout from '../layouts/AppLayout'
-import BouncingCar from '@/components/BouncingCar';
+import BouncingCar from '@/components/general/BouncingCar';
 
 // Lazy load large pages
 const Home = lazy(() => import('../pages/Home'))

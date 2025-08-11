@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Facebook, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import logo from '../assets/logo.png';
+import logo from '@/assets/logo.png';
 import { useAccordion } from "@/context";
 
 export default function Footer() {

@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { Button } from "./ui/Button";
-import TopHeaderBar from "./TopHeaderBar";
-import logo from "../assets/logo.png";
+import { Button } from "../ui/Button";
+import TopHeaderBar from "../TopHeaderBar";
+import logo from "@/assets/logo.png";
 
 export default function Header() {
   const { t } = useTranslation();

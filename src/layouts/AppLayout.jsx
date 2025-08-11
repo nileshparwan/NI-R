@@ -1,8 +1,8 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
+import Footer from '@/components/general/Footer';
+import Header from '@/components/general/Header';
 
 export default function AppLayout(){
   const { t, i18n } = useTranslation()
