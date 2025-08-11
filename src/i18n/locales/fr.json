@@ -13,23 +13,169 @@
     "clients": "Clients"
   },
   "hero_banner": {
-    "battery_check_replace": "Peinture et restauration automobile",
+    "battery_check_replace": "Réparation collision & peinture automobile",
     "your_car_health_is_our_mission": "La finition parfaite est notre mission",
     "repair_times_vary": "Des retouches mineures aux rénovations complètes, nous offrons des finitions éclatantes et durables — pour que votre voiture ait l’air neuve et attire tous les regards.",
     "read_more": "En savoir plus"
   },
   "about_us": {
     "label": "À propos",
-    "title": "Le soin automobile en lequel vous pouvez avoir confiance",
-    "subtitle": "Depuis 2022, NI-R Automotive propose des services complets pour réparer et restaurer votre véhicule avec précision et passion.",
-    "image_alt": "Peinture automobile",
+    "title": "Experts professionnels en peinture et réparation automobile",
+    "subtitle": "Nous sommes dédiés à restaurer et sublimer la beauté de votre véhicule avec des services de peinture et de réparation de la plus haute qualité.",
     "services": {
-      "collision": "Réparation de collisions",
+      "collision": "Réparation de collision",
       "paint": "Peinture et restauration",
-      "mechanical": "Intervention mécanique",
+      "mechanical": "Travaux mécaniques",
       "maintenance": "Entretien et maintenance"
     },
-    "read_more": "En savoir plus",
-    "founder": "Fondateur & PDG"
+    "read_more": "Lire la suite",
+    "founder": "Fondateur & PDG",
+    "images": {
+      "body_paint_spraying_alt": "Pulvérisation de peinture sur carrosserie"
+    },
+    "expertise_title": "Notre expertise",
+    "expertise": {
+      "paragraph1": "Nous fournissons des services de réparation de carrosserie tels que la réparation des rayures, le redressage, l’alignement, le débosselage et la réparation des pare-chocs.",
+      "paragraph2": "Notre équipe comprend des peintres et carrossiers professionnels avec des années d’expérience. Avec un engagement fort pour un travail soigné et la satisfaction client, nous restaurons votre véhicule à ses meilleures performances et esthétique.",
+      "paragraph3": "Nous comprenons l’importance de l’apparence et du fonctionnement de votre véhicule, et nous nous efforçons de fournir des services de haute qualité qui redonnent vie à votre automobile."
+    }
+  },
+  "services": {
+    "heading1": "Nos",
+    "heading2": "Services",
+    "description": "Solutions premium de peinture et réparation automobile, adaptées pour la perfection.",
+    "collision": {
+      "title": "Réparation de collision",
+      "description": "Nous offrons des services de réparation de collision experts, garantissant des finitions de peinture précises et durables, conçues pour restaurer la beauté originale de votre véhicule tout en reflétant votre style personnel."
+    },
+    "painting": {
+      "title": "Peinture et restauration",
+      "description": "Notre équipe d’experts offre des services complets de peinture et de restauration, conçus pour redonner à votre véhicule toute sa beauté d’origine. Nous utilisons des matériaux de haute qualité et des techniques avancées pour garantir une finition impeccable qui protège et valorise l’apparence de votre voiture, la ramenant à l’état neuf."
+    },
+    "mechanical": {
+      "title": "Travail mécanique",
+      "description": "Nos services mécaniques comprennent des inspections approfondies, des réparations et des réglages pour garantir que votre véhicule fonctionne de manière fluide et sécurisée. Nous utilisons des techniques fiables et des pièces de qualité pour maintenir des performances optimales du moteur et prolonger sa durée de vie."
+    },
+    "maintenance": {
+      "title": "Entretien et maintenance",
+      "description": "L'entretien régulier est essentiel pour garder votre voiture en excellent état. Nous proposons des contrôles complets, des changements d’huile, des inspections de freins et d’autres mesures préventives afin d’assurer la sécurité et l’efficacité de votre véhicule."
+    }
+  },
+  "workshop": {
+    "paintBooth": "Notre cabine de peinture professionnelle",
+    "paintBoothAlt": "Cabine de peinture",
+    "jigWork": "Notre gabarit en action",
+    "jigAlt": "Gabarit en action",
+    "keyInKeyOut1": "Nous offrons une",
+    "keyInKeyOut2": "expérience clé en main",
+    "keyInKeyOut3": "de qualité supérieure.",
+    "description": "Avec deux cabines de peinture dans notre atelier, nous garantissons que nos services de peinture sont réalisés selon les normes les plus élevées. De plus, nous disposons d’un gabarit, d’un gabarit mobile, ainsi que d’autres équipements et technologies pour gérer différents types de réparations de carrosserie automobile."
+  },
+  "gallery": {
+    "title": "Notre Travail",
+    "categories": {
+      "all": "TOUS",
+      "customerwheel": "ROUE CLIENT",
+      "stockwheel": "ROUE STOCK"
+    },
+    "prevSlide": "Diapositive précédente",
+    "nextSlide": "Diapositive suivante",
+    "alt": {
+      "mechanicWorking": "Mécanicien travaillant sur une voiture",
+      "engineRepair": "Réparation de moteur",
+      "mechanicTablet": "Mécanicien avec une tablette",
+      "teamRepairing": "Équipe réparant un moteur",
+      "openingCarHood": "Ouverture du capot de la voiture",
+      "mechanicUnderHood": "Mécanicien sous le capot"
+    }
+  },
+  "security_section": {
+    "alt": "Caméra CCTV",
+    "title": "<span class='text-[#F4C300]'>La sécurité</span> des véhicules de nos clients reste notre priorité absolue.",
+    "paragraphs": [
+      "Notre atelier est équipé de caméras de vidéosurveillance pour assurer leur sécurité pendant leur prise en charge.",
+      "Notre équipe expérimentée de peintres et de carrossiers évaluera les dégâts du véhicule et fournira un devis précis pour nos services.",
+      "Nous nous efforçons de dépasser les attentes à chaque service que nous offrons. Notre équipe écoute les besoins et préoccupations de nos clients, travaillant avec eux pour élaborer des plans de réparation et d'entretien personnalisés adaptés à leurs besoins et budgets uniques."
+    ],
+    "hours": "📅 Ouvert du lundi au vendredi : <span class='text-gray-900'>8h – 17h</span><br />📍 Samedi : <span class='text-gray-900'>8h – 13h</span>"
+  },
+  "client_section": {
+    "title": "Fiable par les <span class=\"text-[#F4C300]\">Leaders de l'industrie</span>",
+    "description_1": "Notre engagement envers l'excellence a gagné la confiance de clients tels que <span class=\"text-[#F4C300] font-semibold\">SICOM</span>, <span class=\"text-[#F4C300] font-semibold\">Transinvest</span>, et <span class=\"text-[#F4C300] font-semibold\">SKBL</span>.",
+    "description_2": "Avec un accent sur la fiabilité et l'efficacité, choisir <span class=\"text-[#D62828] font-semibold\">NI‑R Automotive</span> vous aligne avec un partenaire de confiance dans l'industrie."
+  },
+  "testimonial_section": {
+    "title": "Ce que disent nos clients",
+    "reviews_link": "Lire plus d'avis"
+  },
+  "testimonials": [
+    {
+      "name": "Tooshal Ramdhony",
+      "text": "Ces gars sont de vrais professionnels et fiables. Service client incroyable, je recommanderai certainement à toute personne ayant besoin de travaux automobiles.",
+      "link_text": "Avis Facebook"
+    },
+    {
+      "name": "Irshad Oz",
+      "text": "Travail de carrosserie et peinture excellent. J'ai fait réparer et peindre ma jante, mes étriers de frein et mon bas de caisse professionnellement. Service client excellent également.",
+      "link_text": "Avis Facebook"
+    },
+    {
+      "name": "Antonio Anne-Sophie",
+      "text": "Nous recommandons NI-R à 2000 % et au-delà. Cela a dépassé nos attentes et le résultat est franchement époustouflant. Ils nous ont écoutés et ont été de très bons conseillers.",
+      "link_text": "Avis Facebook"
+    }
+  ],
+  "contact_section": {
+    "title": "Contactez-nous",
+    "form": {
+      "name_label": "Nom",
+      "name_placeholder": "Votre nom",
+      "email_label": "Email",
+      "email_placeholder": "Votre email",
+      "message_label": "Message",
+      "message_placeholder": "Votre message",
+      "send_button": "Envoyer le message"
+    },
+    "validation": {
+      "name_min": "Le nom doit contenir au moins 2 caractères",
+      "email_invalid": "Adresse email invalide",
+      "message_min": "Le message doit contenir au moins 10 caractères"
+    },
+    "status": {
+      "success": "Ouverture de votre client mail...",
+      "error": "Impossible de préparer l'email. Veuillez réessayer."
+    }
+  },
+  "footer": {
+    "logoAlt": "Logo NR Automobile",
+    "about": "Réparation de carrosserie de précision et peinture impeccable — nous redonnons toute sa beauté à votre voiture depuis 2022.",
+    "explore": {
+      "title": "Explorer",
+      "collision": "Réparation de carrosserie",
+      "paint": "Peinture & Restauration",
+      "mechanical": "Services mécaniques",
+      "maintenance": "Entretien"
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "address": "Meerun lane, Glen-park, Vacoas",
+      "phone": "6841400",
+      "email": "accounts@nirautomobile.com"
+    },
+    "quote": {
+      "title": "Demander un devis",
+      "placeholder": "Entrez votre e-mail",
+      "button": "Envoyer"
+    },
+    "errors": {
+      "emptyEmail": "Veuillez entrer votre e-mail",
+      "invalidEmail": "Adresse e-mail invalide"
+    },
+    "email": {
+      "subject": "Demande de devis",
+      "body": "Bonjour,\n\nJe souhaiterais obtenir un devis.",
+      "userEmail": "Mon e-mail"
+    },
+    "rights": "Tous droits réservés."
   }
 }

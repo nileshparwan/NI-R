@@ -10,19 +10,19 @@ const TopHeaderBar = () => {
     };
 
     function callNumber() {
-        window.location.href = "tel:+23052545800";
+        window.location.href = "tel:6841400";
     }
 
     function openEmail() {
-        window.location.href = "mailto:info@nirautomobile.com";
+        window.location.href = "mailto:accounts@nirautomobile.com";
     }
 
 
     return (
         <div className="bg-black text-white text-sm py-2 px-4 flex flex-col items-center md:flex-row justify-evenly">
             <div className="flex items-center gap-4">
-                <p onClick={callNumber}>+230 52545800</p>
-                <p onClick={openEmail}>info@nirautomobile.com</p>
+                <p onClick={callNumber}>6841400</p>
+                <p onClick={openEmail}>accounts@nirautomobile.com</p>
             </div>
 
             <div className="flex items-center gap-4">
@@ -41,10 +41,14 @@ const TopHeaderBar = () => {
                 </div>
 
                 <div className="flex gap-4 border-l border-gray-500 pl-4">
+                    <a href="https://www.facebook.com/nirautomotive/" target="_blank" rel="noreferrer" className="hover:text-red-500 cursor-pointer">
                     <Facebook size={16} className="hover:text-red-500 cursor-pointer" />
-                    <Twitter size={16} className="hover:text-red-500 cursor-pointer" />
-                    <Linkedin size={16} className="hover:text-red-500 cursor-pointer" />
-                    <Instagram size={16} className="hover:text-red-500 cursor-pointer" />
+                    </a>
+                    
+                    <a href="https://www.instagram.com/ni_r_automotive_co_ltd?igsh=MXVkNW1tdDNxdXBsbw%3D%3D&utm_source=qr" target="_blank" rel="noreferrer" className="hover:text-red-500 cursor-pointer">
+                        <Instagram size={16} className="hover:text-red-500 cursor-pointer" />
+                    </a>
+
                 </div>
             </div>
         </div>

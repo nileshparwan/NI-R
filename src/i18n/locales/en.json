@@ -13,23 +13,168 @@
     "clients": "Clients"
   },
   "hero_banner": {
-    "battery_check_replace": "Car Paint & Restoration",
+    "battery_check_replace": "Collision Repairs & Car Paint",
     "your_car_health_is_our_mission": "Perfect Finish is Our Mission",
     "repair_times_vary": "From minor touch-ups to full-body makeovers, we deliver vibrant, long-lasting finishes — so your car looks brand new and turns heads everywhere you go.",
     "read_more": "Read More"
   },
   "about_us": {
-    "label": "About",
-    "title": "Car care you can trust",
-    "subtitle": "Since 2022, NI-R Automotive has been offering complete services to repair and restore your vehicle with precision and passion.",
-    "image_alt": "Car painting",
+    "label": "About Us",
+    "title": "Professional Car Paint & Repair Experts",
+    "subtitle": "We are dedicated to restoring and enhancing your vehicle's beauty with the highest quality paint and repair services.",
     "services": {
-      "collision": "Collision repair",
-      "paint": "Painting and restoration",
-      "mechanical": "Mechanical work",
-      "maintenance": "Maintenance and servicing"
+      "collision": "Collision Repair",
+      "paint": "Painting & Restoration",
+      "mechanical": "Mechanical Work",
+      "maintenance": "Maintenance & Servicing"
     },
-    "read_more": "Read more",
-    "founder": "Founder & CEO"
+    "read_more": "Read More",
+    "founder": "Founder & CEO",
+    "images": {
+      "body_paint_spraying_alt": "Body Paint spraying"
+    },
+    "expertise_title": "Our Expertise",
+    "expertise": {
+      "paragraph1": "We provide auto body repair services such as scratch repairs, dent repairs, body alignment, panel beatings, and bumper repairs.",
+      "paragraph2": "Our team includes professional painters and panel beaters with years of experience. With a high commitment to precision craftsmanship and customer satisfaction, we restore your vehicle to its optimal performance and aesthetic.",
+      "paragraph3": "We understand the importance of your vehicle's appearance and functionality, and strive to deliver top-notch services that breathe new life into your automobile."
+    }
+  },
+  "services": {
+    "heading1": "Our",
+    "heading2": "Services",
+    "description": "Premium car paint and repair solutions tailored for perfection.",
+    "collision": {
+      "title": "Collision repair",
+      "description": "We provide expert collision repair services, ensuring precise and durable paint finishes tailored to restore your vehicle’s original beauty while reflecting your personal style."
+    },
+    "painting": {
+      "title": "Painting and restoration",
+      "description": "Our expert team provides comprehensive painting and restoration services designed to revive your vehicle’s original beauty. We use high-quality materials and advanced techniques to ensure a flawless finish that protects and enhances your car’s appearance, restoring it to showroom condition."
+    },
+    "mechanical": {
+      "title": "Mechanical work",
+      "description": "Our mechanical services include thorough inspections, repairs, and adjustments to ensure your vehicle runs smoothly and safely. We use reliable techniques and quality parts to maintain optimal engine performance and longevity."
+    },
+    "maintenance": {
+      "title": "Maintenance and servicing",
+      "description": "Regular maintenance and servicing are essential to keep your car in excellent condition. We offer comprehensive check-ups, oil changes, brake inspections, and other preventive measures to ensure your vehicle remains safe and efficient."
+    }
+  },
+  "workshop": {
+    "paintBooth": "Our professional paint booth",
+    "paintBoothAlt": "Paint Booth",
+    "jigWork": "Our jig at work",
+    "jigAlt": "Jig at work",
+    "keyInKeyOut1": "We provide a",
+    "keyInKeyOut2": "key In – Key Out",
+    "keyInKeyOut3": "experience.",
+    "description": "With two paint booths in our workshop, we ensure that our painting services are done to the highest standards. Additionally, we have a jig, a mobile jig, and other equipment and technology to handle different types of auto body repair."
+  },
+  "gallery": {
+    "title": "Our Work",
+    "categories": {
+      "all": "ALL",
+      "customerwheel": "CUSTOMER WHEEL",
+      "stockwheel": "STOCK WHEEL"
+    },
+    "prevSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "alt": {
+      "mechanicWorking": "Mechanic working on car",
+      "engineRepair": "Engine repair",
+      "mechanicTablet": "Mechanic with tablet",
+      "teamRepairing": "Team repairing engine",
+      "openingCarHood": "Opening car hood",
+      "mechanicUnderHood": "Mechanic under hood"
+    }
+  },
+  "security_section": {
+    "title": "<span class='text-[#F4C300]'>The security</span> of our customers' vehicles remains our top priority.",
+    "paragraphs": [
+      "Our workshop is equipped with CCTV cameras to ensure their safety while under our care.",
+      "Our experienced team of painters and panel beaters will assess the vehicle’s damage and provide an accurate quotation for our services.",
+      "We strive to exceed expectations with every service we provide. Our team listens to our customers’ needs and concerns, working with them to develop customized repair and maintenance plans that meet their unique needs and budgets."
+    ],
+    "hours": "📅 Open Monday to Friday: <span class='text-gray-900'>8 a.m. – 5 p.m.</span><br />📍 Saturday: <span class='text-gray-900'>8 a.m. – 1 p.m.</span>"
+  },
+  "client_section": {
+    "title": "Trusted by <span class=\"text-[#F4C300]\">Industry Leaders</span>",
+    "description_1": "Our commitment to excellence has earned the trust of clients like <span class=\"text-[#F4C300] font-semibold\">SICOM</span>, <span class=\"text-[#F4C300] font-semibold\">Transinvest</span>, and <span class=\"text-[#F4C300] font-semibold\">SKBL</span>.",
+    "description_2": "With a focus on reliability and efficiency, choosing <span class=\"text-[#D62828] font-semibold\">NI‑R Automotive</span> aligns you with a trusted partner in the industry."
+  },
+  "testimonial_section": {
+    "title": "What Our Clients Say",
+    "reviews_link": "Read more reviews"
+  },
+  "testimonials": [
+    {
+      "name": "Tooshal Ramdhony",
+      "text": "These guys are true professionals and reliable. Awesome customer service, will certainly recommend to anyone in need of automotive works.",
+      "link_text": "Facebook Reviews"
+    },
+    {
+      "name": "Irshad Oz",
+      "text": "Excellent bodywork and paint job. Got my rim, brake calipers and side skirt repaired and painted professionally. Also excellent customer service.",
+      "link_text": "Facebook Reviews"
+    },
+    {
+      "name": "Antonio Anne-Sophie",
+      "text": "We recommend NI-R 2000% and beyond. It was beyond our expectations and the result is frankly speechless. They listened to us and were very good advisors.",
+      "link_text": "Facebook Reviews"
+    }
+  ],
+  "contact_section": {
+    "title": "Get in Touch",
+    "form": {
+      "name_label": "Your Name",
+      "name_placeholder": "Your Name",
+      "email_label": "Your Email",
+      "email_placeholder": "Your Email",
+      "message_label": "Your Message",
+      "message_placeholder": "Your Message",
+      "send_button": "Send Message"
+    },
+    "validation": {
+      "name_min": "Name must be at least 2 characters",
+      "email_invalid": "Invalid email address",
+      "message_min": "Message must be at least 10 characters"
+    },
+    "status": {
+      "success": "Opening your email client...",
+      "error": "Failed to prepare email. Please try again."
+    }
+  },
+  "footer": {
+    "logoAlt": "NR Automotive Logo",
+    "about": "Providing trusted automotive collision repair and painting services to your vehicle since 2022.",
+    "explore": {
+      "title": "Explore",
+      "collision": "Collision Repair",
+      "paint": "Paint & Restoration",
+      "mechanical": "Mechanical Services",
+      "maintenance": "Maintenance"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "Meerun lane, Glen-park, Vacoas",
+      "phone": "6841400",
+      "email": "accounts@nirautomobile.com"
+    },
+    "quote": {
+      "title": "Get A Quote",
+      "placeholder": "Enter your email",
+      "button": "Send"
+    },
+    "errors": {
+      "emptyEmail": "Please enter your email",
+      "invalidEmail": "Invalid email address"
+    },
+    "email": {
+      "subject": "Get A Quote",
+      "body": "Hello,\n\nI would like to get a quote.",
+      "userEmail": "My email"
+    },
+    "rights": "All Rights Reserved."
   }
 }

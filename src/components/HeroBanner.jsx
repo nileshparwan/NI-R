@@ -9,8 +9,16 @@ import { Button } from '@/components/ui/Button';
 export default function HeroBanner() {
     const { t } = useTranslation();
 
+    const handleReadMoreClick = () => {
+        const aboutSection = document.getElementById("about");
+        if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
+
     return (
-        <section className="relative w-full h-[80vh] md:h-[90vh] overflow-hidden bg-gradient-to-br from-[#2d261e] to-[#0c0a07]">
+        <section id="home" className="relative w-full h-[80vh] md:h-[90vh] overflow-hidden bg-gradient-to-br from-[#2d261e] to-[#0c0a07]">
             {/* Background Image */}
             <div className="absolute inset-0">
                 <img
@@ -42,6 +50,7 @@ export default function HeroBanner() {
                     <div className="flex justify-center md:justify-start items-center gap-4">
                         <Button
                             size="lg"
+                            onClick={handleReadMoreClick}
                             className="bg-red-600 hover:bg-red-700 text-white rounded-full px-6"
                         >
                             {t("hero_banner.read_more")}
