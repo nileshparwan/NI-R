@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-
-import sicomLogo from '@/assets/sicom.jpg';
-import transinvestLogo from '@/assets/transinvest.jpeg';
 import ClientCarousel from './general/ClientCarousel';
-import eagle from '@/assets/eagle.png';
-import mua from '@/assets/mua.png';
-import swan from '@/assets/swan.png';
+
+import sicomLogo from '@/assets/clients/sicom.jpg';
+import transinvestLogo from '@/assets/clients/transinvest.jpeg';
+import eagle from '@/assets/clients/eagle.png';
+import mua from '@/assets/clients/mua.png';
+import swan from '@/assets/clients/swan.png';
 
 const logos = [
   { src: sicomLogo, alt: 'SICOM General Insurance' },
