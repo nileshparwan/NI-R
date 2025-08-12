@@ -35,7 +35,7 @@ const Gallery = () => {
     { src: image7, altKey: 'gallery.captions.porsche4', category: ['ALL', 'scratchrepairs'] },
     { src: image8, altKey: 'gallery.captions.wildtrak', category: ['ALL', 'scratchrepairs'] },
     { src: image9, altKey: 'gallery.captions.fit', category: ['ALL', 'fullcar'] },
-    { src: image10, altKey: 'gallery.captions.vezel', category: ['ALL', 'fullcar'] },
+    { src: image10, altKey: 'gallery.captions.discovery', category: ['ALL', 'fullcar'] },
     { src: image11, altKey: 'gallery.captions.bmw', category: ['ALL', 'scratchrepairs'] },
   ], []);
   
