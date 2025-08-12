@@ -15,8 +15,8 @@ export default function Header() {
 
   const navItems = [
     { id: "home", label: t("nav.home") },
-    { id: "services", label: t("nav.services") },
     { id: "about", label: t("nav.about") },
+    { id: "services", label: t("nav.services") },
     { id: "gallery", label: t("nav.gallery") },
     { id: "testimonials", label: t("nav.testimonials") },
     { id: "contact", label: t("nav.contact") },

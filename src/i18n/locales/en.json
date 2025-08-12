@@ -75,18 +75,23 @@
     "title": "Our Work",
     "categories": {
       "all": "ALL",
-      "customerwheel": "CUSTOMER WHEEL",
-      "stockwheel": "STOCK WHEEL"
+      "fullcar": "Full Car Resprays",
+      "scratchrepairs": "Scratch Repairs"
     },
     "prevSlide": "Previous slide",
     "nextSlide": "Next slide",
-    "alt": {
-      "mechanicWorking": "Mechanic working on car",
-      "engineRepair": "Engine repair",
-      "mechanicTablet": "Mechanic with tablet",
-      "teamRepairing": "Team repairing engine",
-      "openingCarHood": "Opening car hood",
-      "mechanicUnderHood": "Mechanic under hood"
+    "captions": {
+      "porsche1": "Fresh coat, flawless curves—this Porsche is ready to turn the road into a runway.",
+      "mercedes": "Elegance on wheels. This Mercedes is back in the spotlight with a flawless new coat.",
+      "porsche2": "Repainted to perfection. This Porsche just got a new story",
+      "porsche3": "Revived and refined—this Porsche’s finish is just as sharp as its performance",
+      "toyota": "Simply iconic. This Toyota’s fresh paint brings classic reliability to a whole new shine.",
+      "evo": "Performance reimagined. This Evo’s vibrant new paint matches its speed.",
+      "porsche4": "Sleek shine, bold lines—our paintwork brought this Porsche’s elegance back to life",
+      "wildtrak": "Adventure-ready and freshly painted—this Wildtrak’s rugged soul just got a bold new look.",
+      "fit": "Small but polished. This Fit’s new coat brings big personality to compact charm.",
+      "vezel": "Redetailed, refreshed, restored—this Vezel’s new finish elevates its crossover cool.",
+      "bmw": "Luxury meets fresh lacquer. This BMW is back on the streets with showroom shine."
     }
   },
   "security_section": {

@@ -4,13 +4,17 @@ import { useTranslation } from 'react-i18next';
 
 import sicomLogo from '@/assets/sicom.jpg';
 import transinvestLogo from '@/assets/transinvest.jpeg';
-import skblLogo from '@/assets/skbl.jpeg';
 import ClientCarousel from './general/ClientCarousel';
+import eagle from '@/assets/eagle.png';
+import mua from '@/assets/mua.png';
+import swan from '@/assets/swan.png';
 
 const logos = [
   { src: sicomLogo, alt: 'SICOM General Insurance' },
   { src: transinvestLogo, alt: 'Transinvest Construction' },
-  { src: skblLogo, alt: 'SKBL' },
+  { src: eagle, alt: 'Swan Insurance' },
+  { src: mua, alt: 'eagle Insurance' },
+  { src: swan, alt: 'Mua Insurance' },
 ];
 
 const ClientSection = () => {

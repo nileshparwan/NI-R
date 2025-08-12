@@ -74,19 +74,24 @@
   "gallery": {
     "title": "Notre Travail",
     "categories": {
-      "all": "TOUS",
-      "customerwheel": "ROUE CLIENT",
-      "stockwheel": "ROUE STOCK"
+      "all": "TOUT",
+      "fullcar": "Peinture Complète",
+      "scratchrepairs": "Réparation de Rayures"
     },
     "prevSlide": "Diapositive précédente",
     "nextSlide": "Diapositive suivante",
-    "alt": {
-      "mechanicWorking": "Mécanicien travaillant sur une voiture",
-      "engineRepair": "Réparation de moteur",
-      "mechanicTablet": "Mécanicien avec une tablette",
-      "teamRepairing": "Équipe réparant un moteur",
-      "openingCarHood": "Ouverture du capot de la voiture",
-      "mechanicUnderHood": "Mécanicien sous le capot"
+    "captions": {
+      "porsche1": "Couche neuve, courbes impeccables — cette Porsche est prête à faire sensation.",
+      "mercedes": "Élégance sur roues. Cette Mercedes est de nouveau sous les projecteurs avec une finition impeccable.",
+      "porsche2": "Repeinte à la perfection. Cette Porsche a juste une nouvelle histoire à raconter.",
+      "porsche3": "Rénovée et raffinée — la finition de cette Porsche est aussi tranchante que sa performance.",
+      "toyota": "Tout simplement iconique. La nouvelle peinture de cette Toyota offre une fiabilité classique avec une touche de brillance.",
+      "evo": "Performance réinventée. La peinture vibrante de cette Evo s’accorde à sa vitesse.",
+      "porsche4": "Brillance lisse, lignes audacieuses — notre travail a redonné vie à l’élégance de cette Porsche.",
+      "wildtrak": "Prête pour l’aventure et fraîchement repeinte — l’âme robuste de cette Wildtrak a adopté un nouveau look audacieux.",
+      "fit": "Compacte mais polie. La nouvelle peinture de cette Fit apporte une grande personnalité à son charme compact.",
+      "vezel": "Redétaillée, rafraîchie, restaurée — la nouvelle finition de cette Vezel élève son crossover avec style.",
+      "bmw": "Luxe et vernis frais. Cette BMW est de retour sur les routes avec un éclat digne d’un showroom."
     }
   },
   "security_section": {

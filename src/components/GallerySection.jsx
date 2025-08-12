@@ -8,26 +8,41 @@ import 'swiper/css';
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
+import image1 from '@/assets/gallery/image1.jpeg';
+import image2 from '@/assets/gallery/image2.jpeg';
+import image3 from '@/assets/gallery/image3.jpeg';
+import image4 from '@/assets/gallery/image4.jpeg';
+import image5 from '@/assets/gallery/image5.jpeg';
+import image6 from '@/assets/gallery/image6.jpeg';
+import image7 from '@/assets/gallery/image7.jpeg';
+import image8 from '@/assets/gallery/image8.jpeg';
+import image9 from '@/assets/gallery/image9.jpeg';
+import image10 from '@/assets/gallery/image10.jpeg';
+import image11 from '@/assets/gallery/image11.jpeg';
+
 const Gallery = () => {
   const { t } = useTranslation();
   const [activeCategory, setActiveCategory] = useState("ALL");
   const swiperRef = useRef(null);
 
-  const images = useMemo(
-    () => [
-      { src: "/images/image1.jpg", altKey: "gallery.alt.mechanicWorking", category: "ALL" },
-      { src: "/images/image2.jpg", altKey: "gallery.alt.engineRepair", category: "ALL" },
-      { src: "/images/image3.jpg", altKey: "gallery.alt.mechanicTablet", category: "CUSTOMER WHEEL" },
-      { src: "/images/image4.jpg", altKey: "gallery.alt.teamRepairing", category: "ALL" },
-      { src: "/images/image5.jpg", altKey: "gallery.alt.openingCarHood", category: "STOCK WHEEL" },
-      { src: "/images/image6.jpg", altKey: "gallery.alt.mechanicUnderHood", category: "ALL" },
-    ],
-    []
-  );
+  const images = useMemo(() => [
+    { src: image1, altKey: 'gallery.captions.porsche1', category: ['ALL', 'fullcar'] },
+    { src: image2, altKey: 'gallery.captions.mercedes', category: ['ALL', 'fullcar'] },
+    { src: image3, altKey: 'gallery.captions.porsche2', category: ['ALL', 'fullcar'] },
+    { src: image4, altKey: 'gallery.captions.porsche3', category: ['ALL', 'scratchrepairs'] },
+    { src: image5, altKey: 'gallery.captions.toyota', category: ['ALL', 'scratchrepairs'] },
+    { src: image6, altKey: 'gallery.captions.evo', category: ['ALL', 'fullcar'] },
+    { src: image7, altKey: 'gallery.captions.porsche4', category: ['ALL', 'scratchrepairs'] },
+    { src: image8, altKey: 'gallery.captions.wildtrak', category: ['ALL', 'scratchrepairs'] },
+    { src: image9, altKey: 'gallery.captions.fit', category: ['ALL', 'fullcar'] },
+    { src: image10, altKey: 'gallery.captions.vezel', category: ['ALL', 'fullcar'] },
+    { src: image11, altKey: 'gallery.captions.bmw', category: ['ALL', 'scratchrepairs'] },
+  ], []);
+  
 
   const filteredImages = useMemo(
     () =>
-      activeCategory === "ALL" ? images : images.filter((img) => img.category === activeCategory),
+      activeCategory === "ALL" ? images : images.filter((img) => img.category.includes(activeCategory)),
     [activeCategory, images]
   );
 
@@ -55,12 +70,11 @@ const Gallery = () => {
           </h1>
 
           <div className="flex flex-col sm:flex-row justify-end mb-4 gap-2 sm:gap-4">
-            {["ALL", "CUSTOMER WHEEL", "STOCK WHEEL"].map((category) => (
+            {["ALL", "fullcar", "scratchrepairs"].map((category) => (
               <button
                 key={category}
-                className={`px-2 py-1 sm:px-4 sm:py-2 text-sm sm:text-base rounded ${
-                  activeCategory === category ? "bg-red-500 text-white" : "bg-pink-200 text-black"
-                }`}
+                className={`px-2 py-1 sm:px-4 sm:py-2 text-sm sm:text-base rounded ${activeCategory === category ? "bg-red-500 text-white" : "bg-pink-200 text-black"
+                  }`}
                 onClick={() => setActiveCategory(category)}
               >
                 {t(`gallery.categories.${category.replace(" ", "").toLowerCase()}`)}
@@ -123,7 +137,7 @@ const Gallery = () => {
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <Card className="overflow-hidden">
-                      <CardContent className="p-0">
+                      <CardContent className="p-0 flex flex-col flex-1">
                         <img
                           src={image.src}
                           alt={t(image.altKey)}
