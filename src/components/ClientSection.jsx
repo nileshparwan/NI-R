@@ -8,13 +8,17 @@ import transinvestLogo from '@/assets/clients/transinvest.jpeg';
 import eagle from '@/assets/clients/eagle.png';
 import mua from '@/assets/clients/mua.png';
 import swan from '@/assets/clients/swan.png';
+import newIndia from '@/assets/clients/newIndia.jpg';
+import jubilee from '@/assets/clients/jubileeInsurance.jpeg';
 
 const logos = [
   { src: sicomLogo, alt: 'SICOM General Insurance' },
-  { src: transinvestLogo, alt: 'Transinvest Construction' },
-  { src: eagle, alt: 'Swan Insurance' },
-  { src: mua, alt: 'eagle Insurance' },
+  { src: mua, alt: 'Mua Insurance' },
   { src: swan, alt: 'Mua Insurance' },
+  { src: eagle, alt: 'Eagle Insurance' },
+  { src: newIndia, alt: 'New India Insurance' },
+  { src: jubilee, alt: 'Jubilee Insurance' },
+  { src: transinvestLogo, alt: 'Transinvest Construction' }
 ];
 
 const ClientSection = () => {

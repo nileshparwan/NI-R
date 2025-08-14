@@ -15,7 +15,7 @@ const ClientCarousel = ({ logos }) => {
       grabCursor={true}
       centeredSlides={true}
       slidesPerView="auto"
-      initialSlide={Math.floor(logos.length / 2)}
+      initialSlide={2}
       coverflowEffect={{
         rotate: 50,
         stretch: 0,

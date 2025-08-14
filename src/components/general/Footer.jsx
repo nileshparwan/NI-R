@@ -69,12 +69,12 @@ export default function Footer() {
                 {/* Explore Navigation */}
                 <nav className="col-span-1 md:col-span-1">
                     <h3 className="text-lg font-semibold mb-5 text-[#F4C300]">{t("footer.explore.title")}</h3>
-                    <ul className="space-y-3 text-gray-300 text-sm">
+                    <ul className="space-y-3 text-gray-300 text-sm text-left">
                         {exploreItems.map((item, index) => (
-                            <li key={item.label}>
+                            <li key={item.label} className="text-left">
                                 <button
                                     onClick={() => handleNavClick(item.href, index + 1)}
-                                    className="text-gray-300 hover:text-[#F4C300] transition-colors duration-300"
+                                    className="text-gray-300 hover:text-[#F4C300] transition-colors duration-300 text-left text-nowrap"
                                 >
                                     {item.label}
                                 </button>
@@ -122,7 +122,7 @@ export default function Footer() {
             </div>
 
             {/* Quote Subscription */}
-            <div className="flex flex-col gap-3 w-full max-w-lg mx-auto mb-4">
+            <div className="flex flex-col gap-3 w-full max-w-lg mx-auto mb-4 px-4 sm:px-0">
                 <h3 className="text-lg font-semibold text-[#F4C300]">{t("footer.quote.title")}</h3>
                 <div className="flex gap-3">
                     <input
@@ -144,7 +144,7 @@ export default function Footer() {
 
             <div className="border-t border-gray-700 py-4 text-center text-gray-400 text-sm">
                 <p>
-                    © {new Date().getFullYear()} <span className="text-red-500 font-semibold">NR Automotive</span>. {t("footer.rights")}
+                    © {new Date().getFullYear()} <span className="text-red-500 font-semibold">NIR Automotive</span>. {t("footer.rights")}
                 </p>
             </div>
         </footer>

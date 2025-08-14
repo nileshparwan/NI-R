@@ -142,7 +142,7 @@ const AboutUsSection = () => {
                                 {t('about_us.read_more')}
                             </Button>
                             <div className="flex items-center gap-2">
-                                <img src={coFounder} alt="Nedil" className="w-10 h-10 rounded-full" loading='lazy'/>
+                                <img src={coFounder} alt="Nedil" className="w-10 h-10 rounded-full object-cover" loading='lazy'/>
                                 <div>
                                     <p className="text-sm font-semibold">Nedil Ittoo</p>
                                     <p className="text-xs text-gray-500">{t('about_us.founder')}</p>
